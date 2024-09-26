@@ -1,5 +1,6 @@
 # Crypto-price-monitor
 
+
 ## Architecture Overview:
 This section will describe each stage of the architecture and tools used.
 
@@ -82,3 +83,14 @@ Handling large datasets is critical in this application, especially when each ne
 
 ## Conclusion:
 Combining table partitioning, compression, sharding, and optimized indexing ensures scalability without data loss, while caching and materialized views improve retrieval speed. Long-term, transitioning to streaming and distributed storage architectures will allow the system to handle massive growth and high-speed data retrieval efficiently.
+
+
+## How to Run the Application
+
+Prerequisites:
+1. python 3.x installed
+2.PostgreSQL installed and running
+3. Install required Python pacakages
+**Steps**
+1. Clone the Repository
+    `git clone 
