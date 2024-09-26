@@ -26,6 +26,7 @@ Security: Use encryption for database connections and set appropriate access con
 Alert System: Logs alerts to a file when price changes exceed the threshold.
 Testing: Mock the logging system to ensure alerts are properly generated.
 
+## Architecture Diagram
 ![Untitled Diagram drawio](https://github.com/user-attachments/assets/1157de4e-9890-4cb2-8df4-a07b3e8273bf)
 
 
