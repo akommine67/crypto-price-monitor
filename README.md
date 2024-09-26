@@ -25,7 +25,9 @@ Security: Use encryption for database connections and set appropriate access con
 
 Alert System: Logs alerts to a file when price changes exceed the threshold.
 Testing: Mock the logging system to ensure alerts are properly generated.
-![image](https://github.com/user-attachments/assets/9b95be29-8185-4a7d-b55d-830165c707b2)
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/1157de4e-9890-4cb2-8df4-a07b3e8273bf)
+
 
 ## Monitoring
 The system implements real-time monitoring of cryptocurrency prices (BTC, ETH, ZEC) and triggers an alert when price changes exceed 2% over a 5-minute moving average. Alerts are logged to a .txt file using a push-based mechanism for immediate action.
