@@ -113,4 +113,7 @@ Prerequisites:
 Running Tests:
   `python test_script.py`
 
+**The below shows all the three test cases were passed**
 
+![
+](https://github.com/akommine67/crypto-price-monitor/blob/main/WhatsApp%20Image%202024-09-27%20at%203.27.29%20AM.jpeg)
