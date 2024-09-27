@@ -15,7 +15,8 @@ SELECT
     MIN(price) AS open_price,
     MAX(price) AS high_price,
     MIN(price) AS low_price,
-    MAX(price) AS close_price
+    LAST(price,timestamp) AS close_price,
+    COUNT(price) AS volume
 FROM tickers_data
 GROUP BY ticker, DATE_TRUNC('day', timestamp);
 
