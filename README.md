@@ -91,6 +91,26 @@ Prerequisites:
 1. python 3.x installed
 2.PostgreSQL installed and running
 3. Install required Python pacakages
+   
 **Steps**
 1. Clone the Repository
-    `git clone 
+   
+    `git clone https://github.com/akommine67/crypto-price-monitor`
+   
+    `cd crypto-price-monitor`
+
+3. Set Up PostgreSQL:
+    create a database named `luxor_db`
+   
+    create the required table which is in the luxor_db.sql file.
+   
+5. Run the Python Script:
+   `python data_fetcher.py`
+   
+7. Check Alerts:
+    Alerts will be logged in `alerts.txt` when price changes exceed 2% over a 5-minute period.
+   
+Running Tests:
+  `python test_script.py`
+
+
