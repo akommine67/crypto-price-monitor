@@ -108,7 +108,7 @@ Prerequisites:
    `python data_fetcher.py`
    
 7. Check Alerts:
-    Alerts will be logged in `alerts.txt` when price changes exceed 2% over a 5-minute period.
+    Alerts will be logged in `alerts.txt` when price changes exceed 2% over a 5-minute period..
    
 Running Tests:
   `python test_script.py`
